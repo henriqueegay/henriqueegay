@@ -1,20 +1,70 @@
-### oiii
-* eu sou a ana , e eu nao gosto do alura 😊🙄
-
-   
-  <img align="center" alt="Rafa-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="Rafa-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Rafa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-
-
-   <a href="https://instagram.com/pv._all" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-
-   
-   
-
-
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Barbearia sim</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Barbearia XYZ</h1>
+    <nav>
+      <ul>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#agendamento">Agendamento</a></li>
+      </ul>
+    </nav>
+  </header>
   
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Corte de cabelo</li>
+      <li>Barba</li>
+      <li>Tratamentos capilares</li>
+      <li>Massagem facial</li>
+    </ul>
+  </section>
+  
+  <section id="equipe">
+    <h2>Equipe</h2>
+    <ul>
+      <li>João - Barbeiro</li>
+      <li>Marcos - Cabeleireiro</li>
+      <li>Carlos - Esteticista</li>
+      <li>Laura - Massagista</li>
+    </ul>
+  </section>
+  
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Telefone: (XX) XXXX-XXXX</p>
+    <p>Email: contato@barbeariaxyz.com</p>
+    <p>Endereço: Rua ABC, 123 - Cidade</p>
+  </section>
+  
+  <section id="agendamento">
+    <h2>Agendamento</h2>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="data">Data:</label>
+      <input type="date" id="data" name="data" required>
+      <label for="servico">Serviço:</label>
+      <select id="servico" name="servico" required>
+        <option value="">Selecione um serviço</option>
+        <option value="corte">Corte de cabelo</option>
+        <option value="barba">Barba</option>
+        <option value="tratamento">Tratamentos capilares</option>
+        <option value="massagem">Massagem facial</option>
+      </select>
+      <input type="submit" value="Agendar">
+    </form>
+  </section>
+  
+  <footer>
+    <p>© 2023 Barbearia aquela ali. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
